@@ -103,4 +103,3 @@ class DBStorage:
             calls remove() on private session attribute (self.session)
         """
         self.__session.remove()
-        
